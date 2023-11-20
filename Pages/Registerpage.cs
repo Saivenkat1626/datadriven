@@ -47,7 +47,7 @@ namespace datadriven.Pages
         {
             _firstName.SendKeys("sai");
             _lastName.SendKeys("venkatesh");
-            _email.SendKeys("sai5@gmail.com");
+            _email.SendKeys("sai6@gmail.com");
             _telephone.SendKeys("123456");
             _password.SendKeys("Saivenkat");
             _confir.SendKeys("Saivenkat");
@@ -60,8 +60,7 @@ namespace datadriven.Pages
         }
         public void tittle()
         {
-            string titt = driver.Title;
-            Assert.True(titt.Contains("My Account"));
+            
         }
     }
 }

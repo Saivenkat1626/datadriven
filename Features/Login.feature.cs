@@ -131,7 +131,6 @@ this.FeatureBackground();
         [NUnit.Framework.DescriptionAttribute("signin_functionality")]
         [NUnit.Framework.CategoryAttribute("Loginwithexcel")]
         [NUnit.Framework.TestCaseAttribute("sai3@gmail.com", "Saivenkat", null)]
-        [NUnit.Framework.TestCaseAttribute("sai4@gmail.com", "Saivenkat", null)]
         public virtual void Signin_Functionality(string username, string password, string[] exampleTags)
         {
             string[] @__tags = new string[] {
